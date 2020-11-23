@@ -184,7 +184,7 @@ const LoadDiv = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
   border-radius: 50%;
   border-top: 16px solid red;
   width: 90%;
-  height: 90%;
+  padding-top: 90%;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: ${LoadAnimation} 2s linear infinite;
 `;

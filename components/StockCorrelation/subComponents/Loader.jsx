@@ -6,13 +6,17 @@ const LoadAnimation = Styled.keyframes`
   100% { -webkit-transform: rotate(360deg); }
 `
 const LoadDiv = Styled.div`
-  border: 16px solid #f3f3f3;
+  border: 16px solid blue;
   border-radius: 50%;
   border-top: 16px solid #3498db;
   width: 100%;
   height: 100%;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: {LoadAnimation} 2s linear infinite;
+`
+const ParentDiv = Styled.div`
+  width: 100%;
+  padding-top: 100%;
 `
 
 class Loader extends React.component{
@@ -22,7 +26,7 @@ class Loader extends React.component{
     this.state = {display:"none"}
   }
   render(){
-    <LoadDiv style="display:{this.state.display}"></LoadDiv>
+    <ParentDiv><LoadDiv style="display:{this.state.display}"></LoadDiv><ParentDiv>
   }
 
 

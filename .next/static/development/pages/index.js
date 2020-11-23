@@ -36,7 +36,7 @@ var _jsxFileName = "/home/runner/StockCorrelationComponent/components/StockCorre
 var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
 
 function _templateObject9() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_8__["default"])(["\n  border: 16px solid #f3f3f3;\n  border-radius: 50%;\n  border-top: 16px solid red;\n  width: 90%;\n  height: 90%;\n  -webkit-animation: spin 2s linear infinite; /* Safari */\n  animation: ", " 2s linear infinite;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_8__["default"])(["\n  border: 16px solid #f3f3f3;\n  border-radius: 50%;\n  border-top: 16px solid red;\n  width: 90%;\n  padding-top: 90%;\n  -webkit-animation: spin 2s linear infinite; /* Safari */\n  animation: ", " 2s linear infinite;\n"]);
 
   _templateObject9 = function _templateObject9() {
     return data;
