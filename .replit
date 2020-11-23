@@ -1,2 +1,2 @@
 language = "nextjs"
-run = "npm run dev"
+run = "npm start; echo 'or npm run dev'"
